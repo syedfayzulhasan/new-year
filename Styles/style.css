@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header Sections */
+.header {
+  height: 100vh;
+  background-image: url("../images/banner/banner2.png");
+  text-align: right;
+}
+.first-content {
+  padding-top: 210px;
+  padding-right: 100px;
+}
+.first-header {
+  padding-bottom: 5px;
+}
+.first-description {
+  padding-bottom: 8px;
+}
+.primary-button {
+  color: white;
+  background-color: #f15b22;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.failure-section {
+  display: flex;
+}
+.failure-text {
+  padding-top: 350px;
+  padding-left: 100px;
+}
+.failure-heading {
+  padding-bottom: 10px;
+}
+.failure-paragraph {
+  padding-bottom: 10px;
+}
+/* Plan Section added here */
+
+.plan-section {
+  padding-top: 60px;
+}
+.plan-header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.plan-type {
+  display: flex;
+  justify-content: space-evenly;
+}
+.goal-type {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* Motivational Section */
+
+.motivational {
+  text-align: center;
+  padding-top: 25px;
+}
+.motivation-heading {
+  padding-bottom: 10px;
+}
+.motivation-div {
+  padding-top: 10px;
+}
+
+/* Call now sections */
+
+.call-now {
+  background-image: url(../images/gradient2.png), url(../images/watch.png);
+  height: 30vh;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, red, none);
+  margin-top: 10px;
+}
+
+.secondary-button {
+  color: red;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 5px;
+}
+.call-div {
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.call-div > h2 {
+  color: white;
+}
+
+/* Footer Section */
+
+footer {
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+  height: 300px;
+}
+.final-div {
+  display: flex;
+}
+.future-div {
+  margin-top: 40px;
+  margin-left: 70px;
+}
+
+.future-div > h3 {
+  margin-bottom: 5px;
+}
+
+.future-div > p {
+  margin-bottom: 5px;
+}
+.subscribe-div {
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+.last-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: red;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+}
